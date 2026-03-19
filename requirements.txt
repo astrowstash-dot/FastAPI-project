@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]==0.42.0
+
+python-jose 
+python-dotenv
+
+joblib
+pandas
+
+scikit-learn
+
+ipykernel
+
+redis
+
+
