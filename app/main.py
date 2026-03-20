@@ -11,7 +11,7 @@ app.add_middleware(LoggingMiddleware)
 
 # link endpoints
 app.include_router(routes_auth.router, tags= ["Auth"])
-app.include_router(route_predict.router, tag= ["Prediction"])
+app.include_router(route_predict.router, tags= ["Prediction"])
 
 # Monetring using prometheus
 
